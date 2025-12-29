@@ -6,7 +6,9 @@ define view entity ZCDS_MYBACKUP_1
 key travel_uuid ,
 travel_id,
 agency_id ,
- customer_id 
+ customer_id ,
+begin_date
    
 }
+
 
