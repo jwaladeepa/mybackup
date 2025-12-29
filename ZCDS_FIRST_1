@@ -1,0 +1,13 @@
+
+@AbapCatalog.sqlViewName: 'ZCDS_FIRST_12'
+@AccessControl.authorizationCheck: #CHECK
+@EndUserText.label: 'Sales Order Header CDS View'
+
+define view ZCDS_FIRST_1
+  as select from z0001_po_table
+{
+
+  key carrier_id 
+}
+
+
